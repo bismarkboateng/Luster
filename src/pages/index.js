@@ -1,0 +1,7 @@
+export { default as Blog } from "./Blog"
+export { default as Contact } from "./Contact"
+export { default as FAQ } from "./FAQ"
+export { default as Home } from "./Home"
+export { default as Privacy } from "./Privacy"
+export { default as Productdetail } from "./Productdetail"
+export { default as Productpage } from "./Productpage"
