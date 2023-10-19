@@ -1,6 +1,9 @@
+import { Navbar } from "../../components"
 
 export default function index() {
   return (
-    <div className="text-red-500">Home</div>
+    <div className="text-red-500">
+      <Navbar />
+    </div>
   )
 }
