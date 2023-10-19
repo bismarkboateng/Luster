@@ -1,1 +1,1 @@
-export { default as Home } from "./images/Hero.jpg"
+export { default as Hero } from "./images/Hero.jpg"
