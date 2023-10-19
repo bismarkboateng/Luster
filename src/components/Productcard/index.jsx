@@ -2,20 +2,20 @@ import { BsArrowRightShort } from "react-icons/bs"
 
 
 
-export default function index({ image, category }) {
+export default function index(props) {
   return (
-    <div className="relative w-[100%] h-[300px]">
+    <div className={`relative w-[100%] h-[300px] ${props.largeScreenStyles}`}>
       <img
-        src={image}
+        src={props.image}
         alt="product"
         className="object-fit w-[100%] h-[100%] rounded-lg"
       />
-      <div className="absolute bottom-2 left-3 flex flex-row 
-        justify-between items-center w-[90%]">
+      {props.children}
+      <div className={props.classes}> 
         <span className="text-[18px] text-white font-Inter font-medium">
-          {category}
+          {props.category}
         </span>
-        <span><BsArrowRightShort className="text-[36px] text-[#2660ff]" /></span>
+        <span><BsArrowRightShort className={props.iconClasses} /></span>
       </div>
     </div>
   )
