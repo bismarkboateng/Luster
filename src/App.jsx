@@ -19,7 +19,6 @@ export default function App() {
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/product-detail" element={<Productdetail />} />
         <Route path="/all-product" element={<Productpage />} />
-
       </Routes>
     </main>
   )
