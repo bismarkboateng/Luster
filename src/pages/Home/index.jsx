@@ -1,6 +1,9 @@
 
 
-import { Navbar, Hero, Category, Productcard } from "../../components"
+import { 
+  Navbar, Hero, Category, Productcard,
+  Homerating
+} from "../../components"
 import { StarterKit, BestSeller } from "../../assets"
 
 
@@ -20,7 +23,7 @@ export default function index() {
           bg-gray-300 mt-20 mb-20"
       />
       
-      <section className="w-[90%] mx-auto mb-20">
+      {/* <section className="w-[90%] mx-auto mb-20">
         <h1 className="text-[28px] font-Inter 
           text-[#003057] text-center font-medium md:mb-10">
           Need Some Help Choosing ?
@@ -56,8 +59,9 @@ export default function index() {
             </p>
           </Productcard>
         </div>
-
-      </section>
+      </section> */}
+      
+      <Homerating />
 
     </div>
   )

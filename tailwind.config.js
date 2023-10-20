@@ -12,6 +12,9 @@ module.exports = {
     extend: {
       fontFamily: {
         Inter: ['Inter', 'sans-serif']
+      },
+      backgroundImage: {
+        "rating":  "url('/src/assets/images/rating.svg')",
       }
     },
   },
