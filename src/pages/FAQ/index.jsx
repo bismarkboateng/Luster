@@ -3,7 +3,7 @@ export default function index() {
 // <img src="https://uploads-ssl.webflow.com/64c2d239213b66830a983d4d/64c43f76f4bbf900dc7ec834_Page%20Banner%20Background.svg"/>
   return (
   <div>
-    <div className="page-banner-wrapper mt-20">
+    <div className="page-banner-wrapper mt-20 ">
       <div
       className="bg-blue-50 bg-center bg-no-repeat w-full py-20"
       style={{
@@ -126,44 +126,63 @@ export default function index() {
     
     {/* bottom nav */}
     <div className="bg-blue-950">
-      <div className="flex text-white">
+    {/* first div */}
+      <div className="flex justify-around items-center text-white">
         {/* luster shop company and the admin divs*/}
-        <div>
+        <div className="flex justify-start items-start mt-0">
           <h1 className="text-2xl font-bold">LUSTER</h1>
         </div>
-        {/* first div */}
+        {/* second div */}
         <div className="flex-col">
           <h6 className="text-sm text-blue-500">SHOP</h6>
           <div className="text-white">
-          <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">
-        All Products
-      </h6>
-      <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">
-        Starter Kits
-      </h6>
-      <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">
-        Best Sellers
-      </h6>
-      <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">
-        Cleanser
-      </h6>
-      <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">
-        Serum
-      </h6>
-      <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">
-        Moisturizer
-      </h6>
-      <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">
-        Kit
-      </h6>
-      </div>
+          <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">All Products</h6>
+          <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">Starter Kits</h6>
+          <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">Best Sellers</h6>
+          <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">Cleanser</h6>
+          <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">Serum</h6>
+          <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">Moisturizer</h6>
+          <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">Kit</h6>
         </div>
+        </div> 
+        
         {/* second div */}
         <div>
-          
+        <h6 className="text-sm text-blue-500">COMPANY</h6>
+          <div className="text-white">
+          <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">Blog</h6>
+          <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">About</h6>
+          <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">Contact</h6>
+          <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">FAQ</h6>
+          <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">Privacy Policy</h6>
+          </div>
         </div>
-        <div></div>
+
+        {/* third div */}
+        <div>
+        <h6 className="text-sm text-blue-500">ADMIN</h6>
+          <div className="text-white">
+          <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">Style Guide</h6>
+          <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">Components</h6>
+          <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">Licenses</h6>
+          <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">Instructions</h6>
+          <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">Changelog</h6>
+          <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">Password</h6>
+          <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">404</h6>
+          </div>
+        </div>
       </div>
+        {/* lower div */}
+        <div className="flex justify-around mt-20 text-white">
+         <div>© Luster 2023. All rights reserved.</div>
+          <div className="ml-40">Built by <span className="text-blue-500 underline">Amoh Ntim</span></div>
+          <div>
+            <div>Powered by</div>
+            <div><span className="text-blue-500 underline">Webflow</span></div>
+          </div>
+         <div>
+         </div>
+        </div>
     </div>
     
   </div>
