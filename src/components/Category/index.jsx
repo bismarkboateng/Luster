@@ -5,13 +5,7 @@ import { productData } from "./product-card-data"
 
 
 
-
 export default function index() {
-
-  const classes=`flex flex-row justify-between items-center 
-    absolute bottom-2 left-3 w-[90%]`
-
-  const iconClasses = "text-[36px] text-[#2660ff]"
 
   return (
     <section className="category mt-[93%] md:mt-[10%] w-[90%] mx-auto
@@ -34,13 +28,26 @@ export default function index() {
         gap-y-7 md:gap-y-7 md:gap-x-7 xl:grid-cols-4">
           {
             productData.map((product) => (
-              <Productcard 
-                key={product.id}
+              <Productcard
                 image={product.image}
                 category={product.category}
-                classes={classes}
-                iconClasses={iconClasses}
-              />
+                key={product.id}
+                className="relative w-[100%] h-[300px]"
+              >
+              <div className="flex flex-row justify-between items-center 
+                  absolute bottom-4 left-3 w-[90%]"
+              >
+                <span className="text-[18px] text-white font-Inter font-medium
+                  md:text-xl lg:text-2xl">
+                  {product.category}
+                </span>
+                <span>
+                  <BsArrowRightShort 
+                    className="text-[36px] text-[#2660ff]" 
+                  />
+                </span>
+              </div>
+              </Productcard>
             ))
           }
         </section>

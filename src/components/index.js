@@ -6,8 +6,13 @@ export { default as Herocard } from "./Herocard"
 export { default as Button } from "./Button"
 export { default as Category } from "./Category"
 export { default as Productcard } from "./Productcard"
+<<<<<<< HEAD
 export {default as ContactSocialCard} from "./ContactSocialCard"
 export {default as ContactForm} from "./ContactForm"
 export {default as FootLine} from "./FootLine"
 export {default as TitleCard} from "./TiltleCard"
 export { default as Homerating } from "./Homerating"
+=======
+export { default as Homerating } from "./Homerating"
+export { default as Natural } from "./Natural"
+>>>>>>> biscode-home
