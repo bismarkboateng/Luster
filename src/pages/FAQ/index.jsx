@@ -15,7 +15,7 @@ export default function index() {
       </div>
       <div className="paragraph-wrapper transform translate-x-0 translate-y-0 scale-100 rotate-x-0 rotate-y-0 rotate-z-0 skew-x-0 skew-y-0 transform-style-preserve-3d opacity-100 ml-20">
         <p className="paragraph text-lg">Lorem ipsum dolor sit amet consectetur. Id tortor amet</p>
-        <p className="paragraph text-lg">aliquet vestibulum.</p>
+        <p className="paragraph text-lg"> aliquet vestibulum.</p>
       </div>
     </div>
     </div>
