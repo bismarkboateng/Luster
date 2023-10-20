@@ -13,7 +13,6 @@ module.exports = {
       fontFamily: {
         Inter: ['Inter', 'sans-serif']
       },
-<<<<<<< HEAD
       backgroundImage:{
         'titleGradient': "url('https://uploads-ssl.webflow.com/64c2d239213b66830a983d4d/64c43f76f4bbf900dc7ec834_Page%20Banner%20Background.svg')",
       },
@@ -21,12 +20,10 @@ module.exports = {
         'primaryColor': '#003057',
       },
     },    
-=======
       backgroundImage: {
         "rating":  "url('/src/assets/images/rating.svg')",
       }
     },
->>>>>>> biscode-home
-  },
-  plugins: [],
-}
+  }
+//   plugins: [],
+// }
