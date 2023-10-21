@@ -1,8 +1,11 @@
+import { Navbar } from "../../components";
+
 export default function index() {
   const backgroundImageUrl = 'https://uploads-ssl.webflow.com/64c2d239213b66830a983d4d/64c43f76f4bbf900dc7ec834_Page%20Banner%20Background.svg';
 // <img src="https://uploads-ssl.webflow.com/64c2d239213b66830a983d4d/64c43f76f4bbf900dc7ec834_Page%20Banner%20Background.svg"/>
   return (
   <div>
+  <Navbar />
     <div className="page-banner-wrapper mt-20 ">
       <div
       className="bg-blue-50 bg-center bg-no-repeat w-full py-20"
