@@ -3,7 +3,7 @@ import { BsArrowRightShort } from "react-icons/bs"
 
 import { 
   Navbar, Hero, Category, Productcard,
-  Homerating, Natural
+  Homerating, Natural, Skincare
 } from "../../components"
 import { StarterKit, BestSeller } from "../../assets"
 
@@ -80,7 +80,7 @@ export default function index() {
       
       <Homerating />
       <Natural />
-
+      <Skincare />
     </div>
   )
 }

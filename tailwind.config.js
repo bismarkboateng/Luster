@@ -22,6 +22,7 @@ module.exports = {
     },    
       backgroundImage: {
         "rating":  "url('/src/assets/images/rating.svg')",
+        "discount": "url('/src/assets/images/discount-background.svg')",
       }
     },
   }
