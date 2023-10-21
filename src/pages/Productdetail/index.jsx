@@ -6,9 +6,36 @@ import img4 from "../../assets/images/img4.jpg";
 import img5 from "../../assets/images/img5.jpg";
 import { image01, image02, image03, image04 } from "../../assets";
 import { BsArrowRight, BsCaretDown, BsCaretUp, BsHeart, BsStarFill } from "react-icons/bs";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Index() {
+	useEffect(() => {
+		const handleScroll = () => {
+			// Your scroll event handling code here
+			// This function will be called when the user scrolls anywhere on the page
+			console.log("SCROLLING");
+			const banner = document.querySelector('.myscroll'); // Replace with your banner class or ID
+
+      // Check if the banner element exists
+      if (banner) {
+		console.log("FOUND");
+        // Calculate the amount to scroll based on the scroll position
+        const scrollAmount = window.scrollY * 2; // Adjust the factor to control the scroll speed
+
+        // Set the new scrollLeft value
+        banner.scrollLeft = scrollAmount;
+      }
+		};
+	
+		window.addEventListener('scroll', handleScroll);
+	
+		return () => {
+			window.removeEventListener('scroll', handleScroll);
+		};
+	}, []);
+
+
+
 	const AccordionItem = ({ title, content }) => {
 		const [isOpen, setIsOpen] = useState(false);
 	
@@ -73,9 +100,7 @@ export default function Index() {
 	
 
 	const myText = "—30-DAY MONEY BACK GUARANTEE—TRY RISK FREE";
-	const handleScroll = (event) => {
-		event.target.animate()
-	}
+	
 
 	
 	return (
@@ -116,36 +141,46 @@ export default function Index() {
 					</div>
 				</div>
 			</section>
-			<section onScroll={handleScroll} className="bg-[#4d6e89] p-2 will-change-transform overflow-hidden">
-				<p className="text-gray-300 truncate transform translate-x-96">{myText.repeat(30)}</p>
+			<section className="bg-[#4d6e89] p-2 myscroll flex flex-row flex-nowrap overflow-hidden">
+				<p className="text-gray-300 whitespace-nowrap">{myText}</p>
+				<p className="text-gray-300 whitespace-nowrap">{myText}</p>
+				<p className="text-gray-300 whitespace-nowrap">{myText}</p>
+				<p className="text-gray-300 whitespace-nowrap">{myText}</p>
+				<p className="text-gray-300 whitespace-nowrap">{myText}</p>
+				<p className="text-gray-300 whitespace-nowrap">{myText}</p>
+				<p className="text-gray-300 whitespace-nowrap">{myText}</p>
+				<p className="text-gray-300 whitespace-nowrap">{myText}</p>
+				<p className="text-gray-300 whitespace-nowrap">{myText}</p>
+				<p className="text-gray-300 whitespace-nowrap">{myText}</p>
+				<p className="text-gray-300 whitespace-nowrap">{myText}</p>
 			</section>
 			<section className="flex flex-col justify-center lg:p-20 p-5 py-32 gap-y-10">
 				<h4 className="lg:text-6xl text-4xl text-blue-950 text-center">
 					What&apos;s Included
 				</h4>
 				<div className="flex flex-row lg:flex-nowrap flex-wrap lg:gap-x-5 gap-x-0">
-					<div className="lg:w-1/4 w-1/2 rounded-lg flex flex-col gap-y-5">
+					<div className="lg:w-1/4 w-1/2 rounded-lg flex p-1 flex-col gap-y-5">
 						<img src={image02} className="lg:w-full rounded-lg" alt="" />
 						<span className="lg:text-3xl text-xl font-semibold text-blue-950">Starter Kit</span>
 						<p className="lg:text-lg text-sm font-normal text-blue-950">
 							Lorem ipsum dolor sit amet consectetur tortor amet aliquet vestibulum.
 						</p>
 					</div>
-					<div className="lg:w-1/4 w-1/2 rounded-lg flex flex-col gap-y-5">
+					<div className="lg:w-1/4 w-1/2 rounded-lg flex p-1 flex-col gap-y-5">
 						<img src={image01} className="lg:w-full rounded-lg" alt="" />
 						<span className="lg:text-3xl text-xl font-semibold text-blue-950">Cleanser</span>
 						<p className="lg:text-lg text-sm font-normal text-blue-950">
 							Lorem ipsum dolor sit amet consectetur tortor amet aliquet vestibulum.
 						</p>
 					</div>
-					<div className="lg:w-1/4 w-1/2 rounded-lg flex flex-col gap-y-5">
+					<div className="lg:w-1/4 w-1/2 rounded-lg flex p-1 flex-col gap-y-5">
 						<img src={img3} className="lg:w-full rounded-lg" alt="" />
 						<span className="lg:text-3xl text-xl font-semibold text-blue-950">Anti-Aging Serum</span>
 						<p className="lg:text-lg text-sm font-normal text-blue-950">
 							Lorem ipsum dolor sit amet consectetur tortor amet aliquet vestibulum.
 						</p>
 					</div>
-					<div className="lg:w-1/4 w-1/2 rounded-lg flex flex-col gap-y-5">
+					<div className="lg:w-1/4 w-1/2 rounded-lg flex p-1 flex-col gap-y-5">
 						<img src={img4} className="lg:w-full rounded-lg" alt="" />
 						<span className="lg:text-3xl text-xl font-semibold text-blue-950">Moisturizer</span>
 						<p className="lg:text-lg text-sm font-normal text-blue-950">
