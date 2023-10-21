@@ -8,3 +8,6 @@ export { default as image04 } from "./images/image04.jpg"
 
 export { default as StarterKit } from "./images/category-starter-kits.jpg"
 export { default as BestSeller } from "./images/category-best-sellers.jpg"
+
+// skin care
+export { default as SkinCare } from "./images/skin-care.jpg"

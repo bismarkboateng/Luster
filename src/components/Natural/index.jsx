@@ -14,7 +14,7 @@ export default function index() {
 
   return (
     <section className="w-[90%] mx-auto mt-20 flex flex-col lg:flex-row 
-        lg:items-start lg:justify-start 2xl:items-center lg:gap-[6%] 2xl:w-[81%]">
+        lg:items-start lg:justify-start 2xl:items-center lg:gap-[6%]">
         <div className="w-[100%]">
             <img 
                 src={image02} 
