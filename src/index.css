@@ -14,3 +14,9 @@
     margin-top: 70%;
   }
 }
+
+.my-bg{
+  background-image: url('./assets/images/bg.svg');
+  /* background-position: center; */
+  background-repeat: no-repeat;
+}
