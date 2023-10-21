@@ -132,7 +132,7 @@ export default function index() {
     {/* first div */}
       <div className="flex justify-around items-center text-white sm:flex flex-col gap-y-12 md:flex-row">
         {/* luster shop company and the admin divs*/}
-        <div className="flex justify-start items-start mt-0">
+        <div className="flex items-start">
           <h1 className="text-2xl font-bold">LUSTER</h1>
         </div>
         {/* second div */}
