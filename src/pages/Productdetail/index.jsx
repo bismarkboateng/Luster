@@ -243,7 +243,7 @@ export default function Index() {
 					Customers Also Bought
 				</h4>
 				<div className="flex flex-row lg:flex-nowrap flex-wrap lg:gap-x-5">
-					<div className="w-1/2 lg:w-1/4 p-2 flex-shrink rounded-lg flex flex-col gap-y-5 relative">
+					 <div className="w-1/2 lg:w-1/4 p-2 flex-shrink rounded-lg flex flex-col gap-y-5 relative">
 						<ProductDetail img={image04} />
 						<span className="text-xl lg:text-3xl font-semibold text-blue-950">The Basics</span>
 						<p className="text-sm lg:text-lg font-normal text-blue-950">
