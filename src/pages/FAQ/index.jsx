@@ -121,11 +121,8 @@ export default function index() {
           />
         </svg>
       </div>
-
-
     </div>
-   
-    </div>
+  </div>
     
     {/* bottom nav */}
     <div className="bg-blue-950">
