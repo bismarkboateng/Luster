@@ -132,7 +132,7 @@ export default function index() {
     {/* first div */}
       <div className="flex justify-around items-center text-white sm:flex flex-col gap-y-12 md:flex-row">
         {/* luster shop company and the admin divs*/}
-        <div className="flex items-start">
+        <div className="flex items-start md:mb-60">
           <h1 className="text-2xl font-bold">LUSTER</h1>
         </div>
         {/* second div */}
@@ -150,7 +150,7 @@ export default function index() {
         </div> 
         
         {/* second div */}
-        <div>
+        <div className="md:mb-20">
         <h6 className="text-sm text-blue-500">COMPANY</h6>
           <div className="text-white">
           <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">Blog</h6>
