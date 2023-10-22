@@ -1,4 +1,4 @@
-import { BlogCard, BlogContent, BlogGrid, Navbar, TitleCard } from "../../components"
+import { BlogCard, BlogContent, BlogGrid, FootLine, Footer, Navbar, TitleCard } from "../../components"
 
 export default function index() {
   return (
@@ -12,6 +12,8 @@ export default function index() {
         <BlogContent />
       </div>
       <BlogGrid />
+      <FootLine />
+      <Footer />
     </section>
   )
 }
