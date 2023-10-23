@@ -8,7 +8,7 @@ export default function index() {
   <Navbar />
     <div className="page-banner-wrapper mt-20 ">
       <div
-      className="bg-blue-50 bg-center bg-no-repeat w-full py-20"
+      className="flex-col bg-blue-50 bg-center bg-no-repeat w-full py-20 sm:justify-center items-center"
       style={{
         backgroundImage: `url(${backgroundImageUrl})`,
       }}
@@ -92,14 +92,14 @@ export default function index() {
 
 
     {/* subscribe with the email letter */}
-    <div className="flex justify-between items-center font-inter text-neutral-950 text-base leading-1.5 font-normal box-border mt-24 relative p-12 bg-blue-50 bg-no-repeat bg-cover bg-center" style={{ backgroundImage: `url("https://uploads-ssl.webflow.com/64c2d239213b66830a983d4d/64c427574f45d1dc642c3d1c_Newsletter%20Background.svg")` }}>
+    <div className="flex justify-between items-center font-inter text-neutral-950 text-base leading-1.5 font-normal box-border mt-24 relative p-12 bg-blue-50 bg-no-repeat bg-cover bg-center sm:flex flex-col gap-y-4 md:flex-row" style={{ backgroundImage: `url("https://uploads-ssl.webflow.com/64c2d239213b66830a983d4d/64c427574f45d1dc642c3d1c_Newsletter%20Background.svg")` }}>
       <div>
       <h3 className="text-4xl font-semibold text-blue-950 ml-20">Subscribe for</h3>
       <h3 className="text-4xl font-semibold text-blue-950 ml-20">Exclusive Discounts</h3>
       <h3 className="text-4xl font-semibold text-blue-950 ml-20">and Skin Care Tips</h3>  
       </div>
 
-      <div className="relative">
+      <div className="relative sm:flex justify-center items-center">
       <input
         type="email"
         placeholder="Enter your email"
@@ -121,18 +121,15 @@ export default function index() {
           />
         </svg>
       </div>
-
-
     </div>
-   
-    </div>
+  </div>
     
     {/* bottom nav */}
     <div className="bg-blue-950">
     {/* first div */}
-      <div className="flex justify-around items-center text-white">
+      <div className="flex justify-around items-center text-white sm:flex flex-col gap-y-12 md:flex-row">
         {/* luster shop company and the admin divs*/}
-        <div className="flex justify-start items-start mt-0">
+        <div className="flex items-start md:mb-60">
           <h1 className="text-2xl font-bold">LUSTER</h1>
         </div>
         {/* second div */}
@@ -150,7 +147,7 @@ export default function index() {
         </div> 
         
         {/* second div */}
-        <div>
+        <div className="md:mb-20">
         <h6 className="text-sm text-blue-500">COMPANY</h6>
           <div className="text-white">
           <h6 className="py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400">Blog</h6>
@@ -177,15 +174,15 @@ export default function index() {
       </div>
         {/* lower div */}
         <div className="flex justify-around mt-20 text-white">
-         <div>© Luster 2023. All rights reserved.</div>
-          <div className="ml-40">Built by <span className="text-blue-500 underline">Amoh Ntim</span></div>
-          <div>
+         <div className="p-4">© Luster 2023. All rights reserved.</div>
+          <div className="ml-40 p-4">Built by <span className="text-blue-500 underline">Amoh Ntim</span></div>
+          <div className="mr-4 py-4">
             <div>Powered by</div>
             <div><span className="text-blue-500 underline">Webflow</span></div>
           </div>
          <div>
-         </div>
         </div>
+      </div>
     </div>
     
   </div>
