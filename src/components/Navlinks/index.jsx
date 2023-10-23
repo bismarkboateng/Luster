@@ -10,7 +10,9 @@ export default function index() {
   return (
     <ul className="flex flex-row items-center hidden gap-7 
         lg:flex lg:mr-auto cursor-pointer">
-        <li className={liStyles}>Shop</li>
+        <Link to={"/all-product"}>
+          <li className={liStyles}>Shop</li>
+        </Link>
 
         <Link to={"/blog"} style={{ textDecoration: "none"}}>
           <li className={liStyles}>Blog</li>

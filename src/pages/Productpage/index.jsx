@@ -1,5 +1,5 @@
 
-import { Navbar, Productcard, Cardwrapper } from "../../components"
+import { Navbar, Productcard, Cardwrapper, Footer } from "../../components"
 import { products } from "./products"
 
 export default function index() {
@@ -48,8 +48,9 @@ export default function index() {
       </div>
 
       <section className="w-[90%] mx-auto mt-5 grid grid-cols-2 gap-x-4
-          border border-red-500 gap-y-4 md:mt-10 md:gap-x-7 md:gap-y-7
-          lg:grid-cols-3 lg:gap-x-4 lg:gap-y-4 2xl:w-[75%] 2xl:grid-cols-4">
+           gap-y-4 md:mt-10 md:gap-x-7 md:gap-y-7
+          lg:grid-cols-3 lg:gap-x-4 lg:gap-y-4 2xl:w-[75%] 2xl:grid-cols-4
+          mb-10">
         {
           products.map((product) => (
           <Cardwrapper  key={product.id}>
@@ -83,49 +84,8 @@ export default function index() {
           </Cardwrapper>
           ))
         }
-
-
-        {/* <div className="relative lg:w-[80%]">
-          <Productcard
-            image={secondImage}
-            category="Starter kit"
-          >
-            <p className="text-[10px] font-Inter bg-white
-              py-[4px] px-[8px] text-[#4d6e89] rounded-full
-              absolute top-2 left-2 md:text-[13px]">
-                BEST SELLER
-            </p>
-          </Productcard>
-          <h1 className="text-lg font-Inter text-[#003057]
-            font-medium leading-[25.2px] mt-3">Cleaner</h1>
-          <p className="text-sm font-Inter leading-[21px] cursor-pointer
-            text-[#4d6e89] mt-2 md:text-[#2660ff]
-            md:text-[16px]">
-              $18.00
-          </p>
-        </div>
-
-        <div className="relative lg:w-[80%]">
-          <Productcard
-            image={thirdImage}
-            category="Starter kit"
-          >
-            <p className="text-[10px] font-Inter bg-white
-              py-[4px] px-[8px] text-[#4d6e89] rounded-full
-              absolute top-2 left-2 md:text-[13px]">
-                SERUM
-            </p>
-          </Productcard>
-          <h1 className="text-lg font-Inter text-[#003057]
-            font-medium leading-[25.2px] mt-3">SERUM</h1>
-          <p className="text-sm font-Inter leading-[21px] cursor-pointer
-            text-[#4d6e89] mt-2 md:text-[#2660ff]
-            md:text-[16px]">
-              $18.00
-          </p>
-        </div> */}
       </section>
-
+      <Footer />
     </section>
   )
 }
