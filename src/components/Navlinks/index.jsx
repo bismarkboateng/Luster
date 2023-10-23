@@ -14,8 +14,8 @@ export default function index() {
           <li className={liStyles}>Shop</li>
         </Link>
 
-        <Link to={"/blog"} style={{ textDecoration: "none"}}>
-          <li className={liStyles}>Blog</li>
+        <Link to={"/privacy"} style={{ textDecoration: "none"}}>
+          <li className={liStyles}>Privacy</li>
         </Link>
         
         <Link to={"/faq"} style={{ textDecoration: "none"}}>

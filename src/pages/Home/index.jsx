@@ -3,7 +3,7 @@ import { BsArrowRightShort } from "react-icons/bs"
 
 import { 
   Navbar, Hero, Category, Productcard,
-  Homerating, Natural, Skincare
+  Homerating, Natural, Skincare, Footer
 } from "../../components"
 import { StarterKit, BestSeller } from "../../assets"
 
@@ -58,6 +58,7 @@ export default function index() {
             image={BestSeller}
             Category="starter kit"
             className="relative"
+
           >
             <div className="flex flex-col absolute z-[2] 
                 bottom-5 left-[30%]">
@@ -81,6 +82,9 @@ export default function index() {
       <Homerating />
       <Natural />
       <Skincare />
+      <div className="mt-10 2xl:mt-20">
+        <Footer />
+      </div>
     </div>
   )
 }

@@ -20,6 +20,8 @@ export default function index() {
                 src={image02} 
                 alt="naturals" 
                 className="object-fit w-[100%] rounded-lg 2xl:h-[700px]"
+                data-aos="zoom-in"
+                data-aos-duration="800"
             />
         </div>
 

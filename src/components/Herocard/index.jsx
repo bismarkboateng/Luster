@@ -5,7 +5,7 @@ export default function index() {
   return (
     <section className="absolute top-[80%] left-6 w-[85%] mx-auto p-[32px] rounded-2xl 
       bg-[#eef4ff] md:w-[50%] md:top-[20%] xl:w-[35%] 2xl:w-[30%]
-      2xl:left-[10%]">
+      2xl:left-[10%]" data-aos="fade-right" data-aos-duration="1000" >
         <h1 className="text-[26px] font-Inter text-[#003057]
           font-medium leading-[36.4px] mb-2 2xl:text-[44px] 2xl:leading-[50px]">
             All-Natural Skin Care Made

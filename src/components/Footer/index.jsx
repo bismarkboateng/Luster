@@ -39,7 +39,7 @@ export default function () {
                     <p className="text-white text-xs font-semibold">Moisturizer</p>
                     <p className="text-white text-xs font-semibold">Kit</p>
                 </div>
-                <div className="flex flex-col gap-y-5 w-1/2 p-2 lg:w-1/4">
+                <div className="flex flex-col gap-y-5 w-1/2 p-2 lg:w-1/4 lg:hidden xl:flex">
                     <span className="text-blue-600 text-xs font-semibold">ADMIN</span>
                     <p className="text-white text-xs font-semibold">All Products</p>
                     <p className="text-white text-xs font-semibold">Starter Kits</p>

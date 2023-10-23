@@ -9,7 +9,7 @@ export default function index() {
         bg-cover bg-center bg-no-repeat flex flex-col justify-center
         items-center 2xl:py-[100px]">
         
-        <div className="flex flex-row gap-2 mb-10">
+        <div className="flex flex-row gap-2 mb-10" data-aos="fade-up">
             <FaStar className={starStyle} />
             <FaStar className={starStyle} />
             <FaStar className={starStyle} />
@@ -18,12 +18,12 @@ export default function index() {
         </div>
 
         <p className="text-xl font-Inter text-[#003057] text-center font-medium
-            w-[90%] mb-5 md:w-[78%] md:text-2xl 2xl:w-[50%] 2xl:text-[30px]">
+            w-[90%] mb-5 md:w-[78%] md:text-2xl 2xl:w-[50%] 2xl:text-[30px]"  data-aos="fade-up">
             “These products have simplified my entire skin care routine and my skin has never been better!”
         </p>
 
         <p className="text-[10px] font-Inter text-[#003057] text-center tracking-[2px]
-            font-medium md:text-[14px]">
+            font-medium md:text-[14px]"  data-aos="fade-up">
             JENNIFER, LOS ANGELES
         </p>
     </section>

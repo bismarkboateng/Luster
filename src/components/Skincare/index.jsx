@@ -12,6 +12,8 @@ export default function index() {
                 src={SkinCare}
                 alt="skin care"
                 className="object-fit w-[100%] rounded-lg"
+                data-aos="zoom-in"
+                data-aos-duration="800"
             />
         </div>
         

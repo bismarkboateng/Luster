@@ -13,12 +13,10 @@ export default function Index() {
 		const handleScroll = () => {
 			// Your scroll event handling code here
 			// This function will be called when the user scrolls anywhere on the page
-			console.log("SCROLLING");
 			const banner = document.querySelector('.myscroll'); // Replace with your banner class or ID
 
       // Check if the banner element exists
       if (banner) {
-		console.log("FOUND");
         // Calculate the amount to scroll based on the scroll position
         const scrollAmount = window.scrollY * 2; // Adjust the factor to control the scroll speed
 
@@ -84,7 +82,7 @@ export default function Index() {
 		return (
 			<div className="relative" onMouseOver={showButton} onMouseOut={hideButton}>
 				<span className="absolute py-1 z-0 top-3 left-3 px-2 tracking-widest uppercase text-xs text-blue-900 font-semibold rounded-3xl bg-white">Starter Kits</span>
-				<img src={img} className="w-full rounded-lg" alt="" />
+				<img src={img} className="w-full rounded-lg"  data-aos="zoom-in" data-aos-duration="800" alt="" />
 				{
 					show && 
 					<div className="p-5 w-full absolute bottom-[2px] top-auto">
@@ -109,12 +107,12 @@ export default function Index() {
 			<section className="bg-blue-50 flex lg:flex-row flex-col lg:p-20 p-5 gap-x-10 gap-y-10 mt-5">
 				<div className="flex lg:flex-row flex-col gap-x-2 lg:w-3/5 w-full gap-y-2">
 					<div className="flex lg:flex-col flex-row gap-x-2 gap-y-2 order-2">
-						<img className="rounded-lg lg:w-28 w-16" src={img1} alt="" />
-						<img className="rounded-lg lg:w-28 w-16" src={image03} alt="" />
-						<img className="rounded-lg lg:w-28 w-16" src={img2} alt="" />
+						<img className="rounded-lg lg:w-28 w-16" src={img1} data-aos="zoom-in" data-aos-duration="800" alt="" />
+						<img className="rounded-lg lg:w-28 w-16" src={image03} data-aos="zoom-in" data-aos-duration="800" alt="" />
+						<img className="rounded-lg lg:w-28 w-16" src={img2} data-aos="zoom-in" data-aos-duration="800" alt="" />
 					</div>
 					<div className="flex order-1">
-						<img className="rounded-lg" src={image03} alt="" />
+						<img className="rounded-lg" src={image03} data-aos="zoom-in" data-aos-duration="800" alt="" />
 					</div>
 				</div>
 				<div className="flex flex-col self-center gap-y-5">
@@ -160,28 +158,28 @@ export default function Index() {
 				</h4>
 				<div className="flex flex-row lg:flex-nowrap flex-wrap lg:gap-x-5 gap-x-0">
 					<div className="lg:w-1/4 w-1/2 rounded-lg flex p-1 flex-col gap-y-5">
-						<img src={image02} className="lg:w-full rounded-lg" alt="" />
+						<img src={image02} className="lg:w-full rounded-lg" data-aos="zoom-in" data-aos-duration="800" alt="" />
 						<span className="lg:text-3xl text-xl font-semibold text-blue-950">Starter Kit</span>
 						<p className="lg:text-lg text-sm font-normal text-blue-950">
 							Lorem ipsum dolor sit amet consectetur tortor amet aliquet vestibulum.
 						</p>
 					</div>
 					<div className="lg:w-1/4 w-1/2 rounded-lg flex p-1 flex-col gap-y-5">
-						<img src={image01} className="lg:w-full rounded-lg" alt="" />
+						<img src={image01} className="lg:w-full rounded-lg" data-aos="zoom-in" data-aos-duration="800" alt="" />
 						<span className="lg:text-3xl text-xl font-semibold text-blue-950">Cleanser</span>
 						<p className="lg:text-lg text-sm font-normal text-blue-950">
 							Lorem ipsum dolor sit amet consectetur tortor amet aliquet vestibulum.
 						</p>
 					</div>
 					<div className="lg:w-1/4 w-1/2 rounded-lg flex p-1 flex-col gap-y-5">
-						<img src={img3} className="lg:w-full rounded-lg" alt="" />
+						<img src={img3} className="lg:w-full rounded-lg" data-aos="zoom-in" data-aos-duration="800" alt="" />
 						<span className="lg:text-3xl text-xl font-semibold text-blue-950">Anti-Aging Serum</span>
 						<p className="lg:text-lg text-sm font-normal text-blue-950">
 							Lorem ipsum dolor sit amet consectetur tortor amet aliquet vestibulum.
 						</p>
 					</div>
 					<div className="lg:w-1/4 w-1/2 rounded-lg flex p-1 flex-col gap-y-5">
-						<img src={img4} className="lg:w-full rounded-lg" alt="" />
+						<img src={img4} className="lg:w-full rounded-lg" data-aos="zoom-in" data-aos-duration="800" alt="" />
 						<span className="lg:text-3xl text-xl font-semibold text-blue-950">Moisturizer</span>
 						<p className="lg:text-lg text-sm font-normal text-blue-950">
 							Lorem ipsum dolor sit amet consectetur tortor amet aliquet vestibulum.
@@ -191,7 +189,7 @@ export default function Index() {
 			</section>
 			<section className="flex lg:flex-row flex-col lg:px-20 p-5 py-32 gap-x-10 gap-y-10">
 				<div className="lg:w-3/5 w-full flex">
-					<img src={img5} className="rounded-lg" alt="" />
+					<img src={img5} className="rounded-lg" data-aos="zoom-in" data-aos-duration="800" alt="" />
 				</div>
 				<div className="flex flex-col lg:w-2/5 w-full gap-y-10 lg:self-center">
 					<h4 className="lg:text-6xl text-4xl font-semibold text-blue-950">

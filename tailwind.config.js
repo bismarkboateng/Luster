@@ -10,6 +10,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        slideIn: {
+          '0%': { top: '10', left: '-10'},
+          '100%': { top: '10', left: '6'},
+        },
+        animation: {
+          slideIn: 'slideIn 1s ease-in'
+        }
+      },
+
       fontFamily: {
         Inter: ['Inter', 'sans-serif']
       },
