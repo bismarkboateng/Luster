@@ -1,4 +1,4 @@
-import { TitleCard, ContactForm, ContactSocialCard, Navbar } from "../../components";
+import { TitleCard, ContactForm, ContactSocialCard, Navbar, Footer } from "../../components";
 
 export default function index() {
   return (
@@ -12,6 +12,7 @@ export default function index() {
         <ContactSocialCard/>
         <ContactForm />
       </div>
+      <Footer />
     </div>
   )
 }
