@@ -67,6 +67,23 @@ export default function index() {
         </ol>
       </div>
     </div>
+    {/* body in light blue wrap */}
+    <div className="bg-blue-200 rounded-lg p-4 text-left">
+      Neque diam lectus ac nisl pellentesque scelerisque vitae pretium. Sed mauris erat nec elementum. Cursus at pharetra aenean tellus accumsan adipiscing integer eleifend in.
+    </div>
+    {/* last lorem */}
+    <div className="p-4 mt-8">
+      <p className="text-4xl font-bold mb-4">Lorem ipsum dolor sit amet</p>
+      <p className="mb-2">Faucibus sed fringilla amet tortor lorem proin pellentesque et nisi.</p>
+      <p className="mb-2">Sit purus quisque elementum in sollicitudin congue augue ullamcorper porta.</p>
+      <p className="mb-2">Cursus cursus ultrices nec commodo imperdiet posuere velit.</p>
+      <p className="mb-2">Aliquet viverra volutpat pellentesque faucibus.</p>
+      <p className="mb-2">Dictum ultricies tellus nibh feugiat lectus.</p>
+      <p className="mb-2">Sed maecenas vitae ut elementum eget porta.</p>
+      <p className="mb-2">Praesent fames vehicula scelerisque auctor sit urna eros sed odio.</p>
+      <p className="mb-2">Varius quis magna purus venenatis at condimentum.</p>
+      <p className="mb-2">Et nec vestibulum vitae ipsum eget venenatis nunc.</p>
+    </div>
       </div>
     </div>
 
