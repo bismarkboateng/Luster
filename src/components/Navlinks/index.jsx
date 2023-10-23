@@ -3,7 +3,10 @@ import { Link } from "react-router-dom"
 
 export default function index() {
 
-  const liStyles = "text-base font-Inter text-[#003057] font-medium"
+  const liStyles = `text-base font-Inter text-[#003057] font-medium
+    px-[4px] py-[5px] rounded-md hover:bg-blue-100 hover:text-blue-600
+    transition-all`
+
   return (
     <ul className="flex flex-row items-center hidden gap-7 
         lg:flex lg:mr-auto cursor-pointer">

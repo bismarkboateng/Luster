@@ -12,3 +12,8 @@ export {default as FootLine} from "./FootLine"
 export {default as TitleCard} from "./TiltleCard"
 export { default as Homerating } from "./Homerating"
 export { default as Natural } from "./Natural"
+<<<<<<< HEAD
+=======
+export { default as Skincare } from "./Skincare"
+export { default as Cardwrapper } from "./Cardwrapper"
+>>>>>>> origin/main
