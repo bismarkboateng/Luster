@@ -1,6 +1,7 @@
 import { BsArrowRight} from "react-icons/bs";
 
 export default function () {
+    const footerLinks = "py-2 hover:translate-x-2 cursor-pointer transform transition-transform hover:text-gray-400 text-white font-semibold text-xs"
   return (
     <footer>
         <section className="flex lg:flex-row flex-col lg:px-20 p-5 py-10 my-bg justify-between gap-y-5">
@@ -21,33 +22,33 @@ export default function () {
                 </h4>
                 <div className="flex flex-col gap-y-5 w-1/2 p-2 lg:w-1/4">
                     <span className="text-blue-600 text-xs font-semibold">SHOP</span>
-                    <p className="text-white text-xs font-semibold">All Products</p>
-                    <p className="text-white text-xs font-semibold">Starter Kits</p>
-                    <p className="text-white text-xs font-semibold">Best Sellers</p>
-                    <p className="text-white text-xs font-semibold">Cleanser</p>
-                    <p className="text-white text-xs font-semibold">Serum</p>
-                    <p className="text-white text-xs font-semibold">Moisturizer</p>
-                    <p className="text-white text-xs font-semibold">Kit</p>
+                    <p className={footerLinks}>All Products</p>
+                    <p className={footerLinks}>Starter Kits</p>
+                    <p className={footerLinks}>Best Sellers</p>
+                    <p className={footerLinks}>Cleanser</p>
+                    <p className={footerLinks}>Serum</p>
+                    <p className={footerLinks}>Moisturizer</p>
+                    <p className={footerLinks}>Kit</p>
                 </div>
                 <div className="flex flex-col gap-y-5 w-1/2 p-2 lg:w-1/4">
                     <span className="text-blue-600 text-xs font-semibold">COMPANY</span>
-                    <p className="text-white text-xs font-semibold">All Products</p>
-                    <p className="text-white text-xs font-semibold">Starter Kits</p>
-                    <p className="text-white text-xs font-semibold">Best Sellers</p>
-                    <p className="text-white text-xs font-semibold">Cleanser</p>
-                    <p className="text-white text-xs font-semibold">Serum</p>
-                    <p className="text-white text-xs font-semibold">Moisturizer</p>
-                    <p className="text-white text-xs font-semibold">Kit</p>
+                    <p className={footerLinks}>All Products</p>
+                    <p className={footerLinks}>Starter Kits</p>
+                    <p className={footerLinks}>Best Sellers</p>
+                    <p className={footerLinks}>Cleanser</p>
+                    <p className={footerLinks}>Serum</p>
+                    <p className={footerLinks}>Moisturizer</p>
+                    <p className={footerLinks}>Kit</p>
                 </div>
                 <div className="flex flex-col gap-y-5 w-1/2 p-2 lg:w-1/4 lg:hidden xl:flex">
                     <span className="text-blue-600 text-xs font-semibold">ADMIN</span>
-                    <p className="text-white text-xs font-semibold">All Products</p>
-                    <p className="text-white text-xs font-semibold">Starter Kits</p>
-                    <p className="text-white text-xs font-semibold">Best Sellers</p>
-                    <p className="text-white text-xs font-semibold">Cleanser</p>
-                    <p className="text-white text-xs font-semibold">Serum</p>
-                    <p className="text-white text-xs font-semibold">Moisturizer</p>
-                    <p className="text-white text-xs font-semibold">Kit</p>
+                    <p className={footerLinks}>All Products</p>
+                    <p className={footerLinks}>Starter Kits</p>
+                    <p className={footerLinks}>Best Sellers</p>
+                    <p className={footerLinks}>Cleanser</p>
+                    <p className={footerLinks}>Serum</p>
+                    <p className={footerLinks}>Moisturizer</p>
+                    <p className={footerLinks}>Kit</p>
                 </div>
             </div>
         </section>
